@@ -1,0 +1,102 @@
+body{
+  
+  width: 1024px;
+  padding-top: 5px;
+  margin: auto;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #363636;
+  text-align:center;
+  
+}
+
+h1{
+  display: none;
+}
+
+h3{
+  text-transform: uppercase;
+  border-bottom: 1px solid #696969;
+}
+
+h4{
+  margin-bottom: 5px;
+}
+
+section{
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+}
+
+p{
+  padding-left: 40px;
+  text-align: justify;
+}
+
+a{
+  padding-left: 5px;
+  text-decoration: none;
+
+}
+
+li{
+  text-align: justify;
+}
+
+li p{
+  padding-left: 0px;
+}
+
+footer{
+  border-top: 1px solid #696969;
+}
+
+.contacts h3{
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+.contacts, .about-me, .contacts__list a{
+  color:rgb(243, 243, 243);
+}
+
+.two-column-layout>h2{
+  display: none;
+}
+
+.contacts p{
+  font-weight: 600;
+}
+
+.two-column-layout:first-child{
+  background-color:rgb(89 89 88 / 91%); 
+  width: 400px;
+}
+
+figure{
+  margin: 0;
+}
+
+.about-me__photo{
+  width: 90%;
+}
+
+li{
+  list-style-type: none;
+}
+
+footer{
+  background-color:rgb(89 89 88 / 91%); 
+  margin-left: 20px;
+}
+
+footer img{
+  width: 90px;
+  margin-left: 325px;
+  padding-top: 5px;
+}
